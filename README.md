@@ -74,7 +74,7 @@ An AI-powered marketing suite that transforms brand marketing through intelligen
 
 1. Clone the repository
 \`\`\`bash
-git clone https://github.com/adithyaadhi505/admybrand-vision-hub.git
+git clone https://github.com/adhi982/ADmyBRAND_AI.git
 cd admybrand-vision-hub
 \`\`\`
 
