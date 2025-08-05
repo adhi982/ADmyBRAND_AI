@@ -1,0 +1,47 @@
+/* Dark mode specific overrides */
+
+/* Override for feature cards to match the screenshot */
+.dark .glass-card {
+  background-color: #202020 !important;
+  border-color: #333333 !important;
+}
+
+/* Feature cards background */
+.dark .glass-card {
+  background: linear-gradient(to bottom, rgba(40, 40, 40, 0.9), rgba(30, 30, 30, 0.9)) !important;
+}
+
+/* Make icon backgrounds darker */
+.dark .glass-card .bg-background {
+  background-color: #151515 !important;
+}
+
+/* Increase contrast for text */
+.dark .glass-card p {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.dark .glass-card h3 {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Specifically for the navbar */
+.dark nav.glass-card {
+  background: rgba(18, 18, 18, 0.8) !important;
+  border-bottom: 1px solid rgba(50, 50, 50, 0.3) !important;
+}
+
+/* Testimonials card - dark gray similar to the screenshot */
+.dark .testimonial-card {
+  background-color: #202020 !important;
+}
+
+/* Pricing cards - to match the screenshot */
+.dark .pricing-card {
+  background-color: #202020 !important;
+}
+
+/* Make sure hover state is consistent */
+.dark .glass-card:hover {
+  background: linear-gradient(to bottom, rgba(45, 45, 45, 0.95), rgba(35, 35, 35, 0.95)) !important;
+}

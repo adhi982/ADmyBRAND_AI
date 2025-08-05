@@ -1,0 +1,23 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/signin",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/signup", 
+      "destination": "/index.html"
+    },
+    {
+      "source": "/blog",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/((?!api/.*).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
